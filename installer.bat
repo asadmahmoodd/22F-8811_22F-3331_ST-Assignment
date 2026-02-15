@@ -12,8 +12,8 @@ if %errorlevel% neq 0 (
 cd /d "%~dp0"
 
 REM Set variables for file names and paths
-set JAVA_INSTALLER=JavaSetup8u431.exe
-set MARIADB_INSTALLER=mariadb-11.5.2-winx64.msi
+set JAVA_INSTALLER=bin\lib\JavaSetup8u431.exe
+set MARIADB_INSTALLER=bin\lib\mariadb-11.5.2-winx64.msi
 set SQL_FILE=resource\database\EditorDBQuery.sql
 
 REM Set the installation directory
